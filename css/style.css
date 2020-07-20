@@ -458,6 +458,16 @@ blockquote footer {
 /* Custom styles */
 #headshot {
   height: 400px;
-  width: 300px;
-  border-radius: 100%;
+  width: 400px;
+}
+.Bio {
+  text-align: left;
+}
+
+.pull_quote {
+  text-align: center;
+}
+
+.CV {
+  text-align: right;
 }
