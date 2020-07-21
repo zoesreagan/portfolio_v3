@@ -6,14 +6,14 @@
 <head>
     <link rel="icon" href="https://via.placeholder.com/70x70">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
 
 
     <meta charset="utf-8">
     <meta name="description" content="My description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Zoë Skye - Name of Project</title>
+    <title>Zoë Skye - Eidetic</title>
 </head>
 
 <body>
@@ -22,32 +22,92 @@
             <a href="index.html">Home</a>
             <ul>
                 <li></li>
-                <li>Work > Workplace Harassment Reporting</li>
+                <li><a href="work.html">Work</a>
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
-        <h1>Workplace Harassment Reporting</h1>
-        <p>Methodological research project for <mark><i>HCI 445: User Research Methods.</i></mark></p>
-        <br>
+        <h1>Eidetic: A Working Memory Game</h1>
+        <p>A visual memory game built using HTML, JS + CSS for <mark><i>General Assembly - Fullstack Development Bootcamp.</i></mark></p>
     </header>
-    <hr>
-    <section>
-      <header>
-        <!-- <p>Pretty interesting stuff, <mark>huh?</mark></p> -->
+
+    <main>
+      <article>
+          <h2>Introduction</h2>
+            <p>
+              Visuospatial processing diminishes with age and the loss of this skill is a major component of cognitive decline.
+              Perhaps training this "memory" can help ward off the loss of visuospatial processing we experience with aging.
+              This game tests the player's ability to recall a word after the image matching portion. <br />
+            </p>
+
+          <br />
+          <br />
+
+
+        <h2>Setting up the game board</h2>
+          <p>I created low fidelity wireframes to help organize game logic and layout. I later used Balsalmiq to organize a desktop view with a mid fidelity wireframe.</p>
+
+          <section>
+            <aside>
+              <figure>
+                <img src="css/images/eidetic/eidetic_wireframe_1.png" alt="">
+
+              </figure>
+
+            </aside>
+
+            <aside>
+            <figure>
+              <img src="css/images/eidetic/eidetic_wireframe_2.png" alt="">
+
+            </figure>
+
+            </aside>
+
+            <aside>
+              <figure>
+                <img src="css/images/eidetic/eidetic_wireframe_4.png" alt="">
+
+              </figure>
+
+            </aside>
+
+          </section>
+
+          <br />
+          <br />
+
+        <h2>Building the Game</h2>
+          <p><mark>Eidetic</mark> is constructed primarily with vanilla JavaScript, with some jQuery to navigate the DOM.
+          There are 16 selectable divs and the code logic checks if the cards match.  If so, the div is assigned a 'match' class and is removed from view.
+          The game also employs a number of modals, which asks the player to remember, and then recall the word from three available options.
+        </p>
+
+        <section>
+          <p><a href="https://zoesreagan.github.io/eidetic-memory-game/" target="_blank"><i>&rarr; Play Eidetic</i></a></p>
+          
+          <figure class="screen_recording">
+            <iframe src="https://player.vimeo.com/video/440390558" width="940" height="680" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+          </figure>
+
+        </section>
+
         <p><a href="work.html"><b>&larr; Go back</b></a></p>
-      </header>
 
-    </section>
+      </article>
 
-  <main>
+    </main>
 
-  </main>
-<footer>
-    <hr>
-    <p>
-        hello@zoeskye.design
-    </p>
-</footer>
+
+    <footer>
+        <hr>
+        <p>
+            This site is built using <a href="https://github.com/andybrewer/mvp/ ">MVP.css </a><br />
+            Typography is <a href="https://arielroman.com/EVERYBODY-FONT">EVERYBODY.FONT </a><br />
+            hello@zoeskye.design 🤠
+        </p>
+    </footer>
+
 </body>
 
 </html>
