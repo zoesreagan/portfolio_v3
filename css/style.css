@@ -132,11 +132,13 @@ nav {
     font-weight: bold;
     justify-content: space-between;
     margin-bottom: 7rem;
+    font-family: 'EverybodyWorld', monospace;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    font-family: 'EverybodyWorld', monospace;
 }
 
 nav ul li {
@@ -207,20 +209,20 @@ h6 {
 
 mark {
     padding: 0.1rem;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'EverybodyWorld', monospace;
     background-color: #C6FF00;
 }
 
 ol li,
 ul li {
     padding: 0.2rem 0;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Sora', sans-serif;
 }
 
 p {
     margin: 0.75rem 0;
     padding: 0;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Sora', sans-serif;
     font-size: 16px;
 }
 
@@ -257,13 +259,13 @@ a {
     color: var(--color-secondary);
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'EverybodyWorld', monospace;
 }
 
 a:hover {
     filter: brightness(var(--hover-brightness));
     text-decoration: underline;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'EverybodyWorld', monospace;
 }
 
 a b,
@@ -278,12 +280,12 @@ button {
     line-height: var(--line-height);
     margin: 1.5rem 0 0.5rem 0;
     padding: 1rem 2rem;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'EverybodyWorld', monospace;
 }
 
 button {
     font-family: var(--font);
-    font-family: 'Comic Neue', cursive;
+    font-family: 'EverybodyWorld', monospace;
 }
 
 button:hover {
@@ -297,7 +299,7 @@ button {
     background-color: var(--color);
     border: 2px solid var(--color);
     color: var(--color-bg);
-    font-family: 'Comic Neue', cursive;
+    font-family: 'EverybodyWorld', monospace;
 }
 
 a em,
@@ -329,7 +331,7 @@ input:focus,
 select:focus,
 textarea:focus {
     outline: none;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Sora', sans-serif;
 }
 
 button:disabled,
@@ -367,7 +369,7 @@ textarea {
     display: block;
     font-size: inherit;
     max-width: var(--width-card-wide);
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Sora', sans-serif;
 }
 
 input[type="checkbox"],
@@ -382,19 +384,19 @@ textarea {
     border-radius: var(--border-radius);
     margin-bottom: 1rem;
     padding: 0.4rem 0.8rem;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Sora', sans-serif;
 }
 
 input[readonly],
 textarea[readonly] {
     background-color: var(--color-bg-secondary);
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Sora', sans-serif;
 }
 
 label {
     font-weight: bold;
     margin-bottom: 0.2rem;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Sora', sans-serif;
 }
 
 /* Tables */
