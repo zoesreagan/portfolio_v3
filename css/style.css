@@ -1,13 +1,15 @@
 :root {
     --border-radius: 5px;
     --box-shadow: 2px 2px 10px;
-    --color: #061633;
+    --color: #c88a36;
     --color-accent: #0616330b;
-    --color-bg: #fff6db;
-    --color-bg-secondary: #fff6db;
-    --color-secondary: #827717;
+    --color-bg: #ffdcb4;
+    --color-bg-secondary: #c88a36;
+
+    /* links */
+    --color-secondary: #9b4922;
     --color-secondary-accent: #8277170b;
-    --color-shadow: #fff6db;
+    --color-shadow: #ffdcb4;
     --color-text: #061633;
     --color-text-secondary: #061633;
     --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -21,10 +23,10 @@
     --width-content: 1080px;
 }
 
-@font-face {
+/* @font-face {
   font-family: EverybodyWorld;
   src: url(EVERYBODY.WORLD-Black.otf);
-}
+} */
 
 /*
 @media (prefers-color-scheme: dark) {
@@ -57,6 +59,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     padding: 1rem 0;
+
 }
 
 footer,
@@ -198,31 +201,35 @@ details summary:focus {
 }
 
 h1,
-h2,
-h3,
-h4,
 h5,
 h6 {
     line-height: var(--line-height);
-    font-family: 'EverybodyWorld', monospace;
+    font-family: 'Playfair Display', serif;
+}
+
+h2,
+h3,
+h4 {
+  line-height: var(--line-height);
+  font-family: 'Montserrat', sans-serif;
 }
 
 mark {
     padding: 0.1rem;
-    font-family: 'EverybodyWorld', monospace;
-    background-color: #fff28e;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dad3cd;
 }
 
 ol li,
 ul li {
     padding: 0.2rem 0;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Sorts Mill Goudy', sans-serif;
 }
 
 p {
     margin: 0.75rem 0;
     padding: 0;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Sorts Mill Goudy', sans-serif;
     font-size: 16px;
 }
 
@@ -259,13 +266,13 @@ a {
     color: var(--color-secondary);
     font-weight: bold;
     text-decoration: none;
-    font-family: 'EverybodyWorld', monospace;
+    font-family: 'Playfair Display', serif;
 }
 
 a:hover {
     filter: brightness(var(--hover-brightness));
     text-decoration: underline;
-    font-family: 'EverybodyWorld', monospace;
+    font-family: 'Playfair Display', serif;
 }
 
 a b,
@@ -280,12 +287,12 @@ button {
     line-height: var(--line-height);
     margin: 1.5rem 0 0.5rem 0;
     padding: 1rem 2rem;
-    font-family: 'EverybodyWorld', monospace;
+    font-family: 'Playfair Display', serif;
 }
 
 button {
     font-family: var(--font);
-    font-family: 'EverybodyWorld', monospace;
+    font-family: 'Playfair Display', serif;
 }
 
 button:hover {
@@ -299,7 +306,7 @@ button {
     background-color: var(--color);
     border: 2px solid var(--color);
     color: var(--color-bg);
-    font-family: 'EverybodyWorld', monospace;
+    font-family: 'Playfair Display', serif;
 }
 
 a em,
@@ -331,7 +338,7 @@ input:focus,
 select:focus,
 textarea:focus {
     outline: none;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 button:disabled,
@@ -369,7 +376,7 @@ textarea {
     display: block;
     font-size: inherit;
     max-width: var(--width-card-wide);
-    font-family: 'Sora', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 input[type="checkbox"],
@@ -384,19 +391,19 @@ textarea {
     border-radius: var(--border-radius);
     margin-bottom: 1rem;
     padding: 0.4rem 0.8rem;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 input[readonly],
 textarea[readonly] {
     background-color: var(--color-bg-secondary);
-    font-family: 'Sora', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 label {
     font-weight: bold;
     margin-bottom: 0.2rem;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Tables */
